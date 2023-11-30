@@ -1,0 +1,97 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.fstpage{
+    height: 600px;
+    width: 100%;
+    background-image: url(images/rk\ bgrnd\ img.jpg);
+     background-size: cover;
+}
+.navbar{
+    height: 100px;
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1.6fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    align-items: center;
+    color: white;
+}
+.navbar img{
+    height: 80px;
+    width: 160px;
+}
+.navbar h5{
+font-size: 16px;
+}
+.main{
+    height: 1500px;
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    background-color: rgb(18, 16, 16);
+    /* gap: 20px; */
+}
+.scndpage img{
+    height: 440px;
+    width: 100%;
+}
+.scndpage h2{
+    color: white;
+    display: grid;
+    justify-content: center;
+    padding-bottom: 20px;
+}
+.scndpage h1{
+    color: white;
+    display: grid;
+    justify-content: center;
+    margin-bottom: 50px;
+}
+.scndpage{
+    background-color: rgb(18, 16, 16);
+    padding-top: 20px;
+}
+.thrdpage{
+    display: flex;
+
+}
+.firstpage{
+    background-color:skyblue;
+    height:590px;
+    padding-top:100px;
+}
+.mainform{
+    border:2px solid black;
+    border-radius:15px;
+    margin:auto;
+    width:75%;
+    height:400px;
+}
+.form{
+    display:flex;
+    flex-direction: column;
+    justify-content:center;
+    align-items: center;
+    padding-top:20px;
+}
+label{
+    font-size: 20px;
+    font-weight:bolder;
+    padding-top:10px;
+}
+input{
+    width:30%;
+    height:30px;
+    font-size:20px;
+    border:2px solid black;
+    font-family:monospace;
+}
+iframe{
+    width: 100%;
+}
+audio{
+    margin: auto;
+    margin-left: 40%;
+}
